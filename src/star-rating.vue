@@ -43,7 +43,7 @@
       <span
         v-if="showRating"
         :class="['vue-star-rating-rating-text', textClass]"
-      > {{ formattedRating }}</span>
+      > {{ formattedRating }}/{{ maxRating}}</span>
     </div>
   </div>
 </template>
